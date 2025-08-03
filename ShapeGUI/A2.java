@@ -18,7 +18,7 @@ import javax.swing.tree.*;
 import javax.swing.event.TreeModelEvent;
 import javax.swing.event.TreeModelListener;
 
-public class A2  extends JFrame {
+public class A2 extends JFrame {
     private NestedShape root = new NestedShape(Shape.DEFAULT_PANEL_WIDTH, Shape.DEFAULT_PANEL_HEIGHT);
     private NestedShape selectedShape = root;
     private CustomDataModel dataModel = new CustomDataModel();
@@ -298,4 +298,5 @@ public class A2  extends JFrame {
             }
         });
     }
+
 }
